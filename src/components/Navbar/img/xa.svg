@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="e1s3k0q8jqgv1" viewBox="0 0 879.240000 879.240000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style><![CDATA[#e1s3k0q8jqgv4_to {animation: e1s3k0q8jqgv4_to__to 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv4_to__to { 0% {transform: translate(439.619995px,75px)} 98.039216% {transform: translate(439.619995px,429.825271px)} 100% {transform: translate(439.619995px,437.825271px)} }#e1s3k0q8jqgv4_tr {animation: e1s3k0q8jqgv4_tr__tr 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv4_tr__tr { 0% {transform: rotate(0deg)} 98.039216% {transform: rotate(45deg)} 100% {transform: rotate(45deg)} }#e1s3k0q8jqgv5_tr {animation: e1s3k0q8jqgv5_tr__tr 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv5_tr__tr { 0% {transform: translate(439.619995px,439.619995px) rotate(0deg)} 98.039216% {transform: translate(439.619995px,439.619995px) rotate(0deg)} 100% {transform: translate(439.619995px,439.619995px) rotate(0deg)} }#e1s3k0q8jqgv5_ts {animation: e1s3k0q8jqgv5_ts__ts 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv5_ts__ts { 0% {transform: scale(1,1)} 98.039216% {transform: scale(1,1)} 100% {transform: scale(1,1)} }#e1s3k0q8jqgv5 {animation: e1s3k0q8jqgv5_c_o 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv5_c_o { 0% {opacity: 1} 98.039216% {opacity: 0} 100% {opacity: 0} }#e1s3k0q8jqgv6_to {animation: e1s3k0q8jqgv6_to__to 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv6_to__to { 0% {transform: translate(443.439987px,804.239990px)} 100% {transform: translate(443.439987px,435.124129px)} }#e1s3k0q8jqgv6_tr {animation: e1s3k0q8jqgv6_tr__tr 510ms linear 1 reverse forwards}@keyframes e1s3k0q8jqgv6_tr__tr { 0% {transform: rotate(0deg)} 98.039216% {transform: rotate(-45deg)} 100% {transform: rotate(-45deg)} }]]></style>
+  <g id="e1s3k0q8jqgv2">
+    <g id="e1s3k0q8jqgv3">
+      <g id="e1s3k0q8jqgv4_to" transform="translate(439.619995,437.825271)">
+        <g id="e1s3k0q8jqgv4_tr" transform="rotate(45)">
+          <line id="e1s3k0q8jqgv4" x1="75" y1="75" x2="804.240000" y2="75" transform="translate(-439.619995,-75)" fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linecap="round" stroke-miterlimit="10"/>
+        </g>
+      </g>
+      <g id="e1s3k0q8jqgv5_tr" transform="translate(439.619995,439.619995) rotate(0)">
+        <g id="e1s3k0q8jqgv5_ts" transform="scale(1,1)">
+          <line id="e1s3k0q8jqgv5" x1="75" y1="439.620000" x2="804.240000" y2="439.620000" transform="translate(-429,-439.619995)" opacity="0" fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linecap="round" stroke-miterlimit="10"/>
+        </g>
+      </g>
+      <g id="e1s3k0q8jqgv6_to" transform="translate(443.439987,435.124129)">
+        <g id="e1s3k0q8jqgv6_tr" transform="rotate(-45)">
+          <line id="e1s3k0q8jqgv6" x1="82.640000" y1="804.240000" x2="804.240000" y2="804.240000" transform="translate(-443.439987,-804.239990)" fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linecap="round" stroke-miterlimit="10"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
