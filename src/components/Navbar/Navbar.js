@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import { Menu } from './Menu';
 import X from './img/x.svg'
-import X1 from './img/img/x.svg'
 import E from './img/e.svg'
-import E1 from './img/img/e.svg'
 import XA from './img/xa.svg'
-import XA1 from './img/img/xa.svg'
 import EA from './img/ea.svg'
-import EA1 from './img/img/ea.svg'
 
 class Navbar extends Component {
     state = { clicked: false, clicked: false, svg: E }
