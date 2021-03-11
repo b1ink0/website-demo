@@ -1,0 +1,176 @@
+.svg1 {
+	animation: svg1 0.5s ease 0s 1 normal forwards;
+}
+.svg2 {
+	animation: svg2 0.5s ease 0s 1 normal forwards;
+}
+.svg3 {
+	animation: svg3 0.5s ease 0s 1 normal forwards;
+}
+.svg4 {
+	animation: svg4 0.5s ease 0s 1 normal forwards;
+}
+.svg5 {
+	animation: svg5 0.5s ease 0s 1 normal forwards;
+}
+.svg6 {
+	animation: svg6 0.5s ease 0s 1 normal forwards;
+}
+.svg7 {
+	animation: svg7 0.5s ease 0s 1 normal forwards;
+}
+.svg01 {
+	animation: svg1 0.5s ease 0s 1 reverse forwards;
+}
+.svg02 {
+	animation: svg2 0.5s ease 0s 1 reverse forwards;
+}
+.svg03 {
+	animation: svg3 0.5s ease 0s 1 reverse forwards;
+}
+.svg04 {
+	animation: svg4 0.5s ease 0s 1 reverse forwards;
+}
+.svg05 {
+	animation: svg5 0.5s ease 0s 1 reverse forwards;
+}
+.svg06 {
+	animation: svg6 0.5s ease 0s 1 reverse forwards;
+}
+.svg07 {
+	animation: svg7 0.5s ease 0s 1 reverse forwards;
+}
+.svg001 {
+	transform: translate(439.619995px, 437.825271px);
+}
+.svg002 {
+	transform: rotate(45deg);
+}
+.svg003 {
+	transform: translate(439.619995px, 439.619995px) rotate(0deg)
+}
+.svg004 {
+	transform: scale(1, 1)
+}
+.svg005 {
+	opacity: 0
+}
+.svg006 {
+	transform: translate(443.439987px, 435.124129px)
+}
+.svg007 {
+	transform: rotate(-45deg)
+}
+@keyframes svg1 {
+	0% {
+		transform: translate(439.619995px, 75px)
+	}
+	98.039216% {
+		transform: translate(439.619995px, 429.825271px)
+	}
+	100% {
+		transform: translate(439.619995px, 437.825271px)
+	}
+}
+
+#svg2 {
+	animation: svg2 510ms linear infinite normal forwards
+}
+
+@keyframes svg2 {
+	0% {
+		transform: rotate(0deg)
+	}
+	98.039216% {
+		transform: rotate(45deg)
+	}
+	100% {
+		transform: rotate(45deg)
+	}
+}
+
+#svg3 {
+	animation: svg3 510ms linear infinite normal forwards
+}
+
+@keyframes svg3 {
+	0% {
+		transform: translate(439.619995px, 439.619995px) rotate(0deg)
+	}
+	98.039216% {
+		transform: translate(439.619995px, 439.619995px) rotate(0deg)
+	}
+	100% {
+		transform: translate(439.619995px, 439.619995px) rotate(0deg)
+	}
+}
+
+#svg4 {
+	animation: svg4 510ms linear infinite normal forwards
+}
+
+@keyframes svg4 {
+	0% {
+		transform: scale(1, 1)
+	}
+	98.039216% {
+		transform: scale(1, 1)
+	}
+	100% {
+		transform: scale(1, 1)
+	}
+}
+
+#svg5 {
+	animation: svg5 510ms linear infinite normal forwards
+}
+
+@keyframes svg5 {
+	0% {
+		opacity: 1
+	}
+	98.039216% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+
+#svg6 {
+	animation: svg6 510ms linear infinite normal forwards
+}
+
+@keyframes svg6 {
+	0% {
+		transform: translate(443.439987px, 804.239990px)
+	}
+	100% {
+		transform: translate(443.439987px, 435.124129px)
+	}
+}
+
+#svg7 {
+	animation: svg7 510ms linear infinite normal forwards
+}
+
+@keyframes svg7 {
+	0% {
+		transform: rotate(0deg)
+	}
+	98.039216% {
+		transform: rotate(-45deg)
+	}
+	100% {
+		transform: rotate(-45deg)
+	}
+}
+    svg {
+        width: 30px;
+        height: 30px;
+		z-index: 100;
+    }
+	line {
+		stroke: red;
+	}
+	

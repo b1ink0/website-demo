@@ -1,23 +1,13 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import { Menu } from './Menu';
-import X from './img/x.svg'
-import E from './img/e.svg'
-import XA from './img/xa.svg'
-import EA from './img/ea.svg'
+import Burger from './Icons/Burger';
 
 class Navbar extends Component {
-    state = { clicked: false, clicked: false, svg: E }
+    state = { clicked: false }
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
-        console.log(this.state.clicked)
-        if (this.state.clicked){
-            this.setState({ svg: XA})
-        }else {
-           
-            this.setState({ svg: EA })
-        }
     }
     render(){
         return(
@@ -28,8 +18,8 @@ class Navbar extends Component {
                         <div className='d'></div>
                         <h1>Stup!d Gaming </h1>
                     </div>
-                    <div className='burger'>
-                        <img onClick={this.handleClick} className='burger-img' src={this.state.svg}></img>
+                    <div className='burger' onClick={this.handleClick}>
+                        <Burger/>
                     </div>
                     <div className={this.state.clicked ? 'menu active' : 'menu'}>
                         <ul>
