@@ -1,0 +1,38 @@
+.svgMainLogo {
+    width: 30px;
+    right: -40px;
+    top: 15;
+    height: 30px;
+    position: absolute;
+    z-index: 10;
+}
+
+.MainLogo1 {
+    transform: rotate(0deg);
+    animation: MainLogoSpin 7s ease-in-out 0s infinite ;
+    transform-origin: center;
+}
+.MainLogo2 {
+    transform: rotate(0deg);
+    animation: MainLogoSpin 7s ease-in-out 0.1s infinite ;
+    transform-origin: center;
+}
+.MainLogo3 {
+    transform: rotate(0deg);
+    animation: MainLogoSpin 7s ease-in-out 0.2s infinite ;
+    transform-origin: center;
+}
+.MainLogo4 {
+    transform: rotate(0deg);
+    animation: MainLogoSpin 7s ease-in-out 0.3s infinite ;
+    transform-origin: center;
+}
+
+@keyframes MainLogoSpin {
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(0deg);}
+    40%{transform: rotate(360deg);}
+    60%{transform: rotate(360deg);}
+    80%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+}

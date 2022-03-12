@@ -1,0 +1,88 @@
+.homeMain {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.home1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.637);
+    width: 98%;
+    border-radius: 10px;
+    height: 200px;
+    top: 10px;
+    border: rgb(172, 0, 0) 2px solid;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.homeHover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(-50deg, rgba(255,255,255,0) 17%, rgba(255, 255, 255, 0.438) 53%, rgba(255,255,255,0) 79%);
+    z-index: 3;
+    transform: all 2;
+    left: 100%;
+    opacity: 0;
+}
+.homeHover1 {
+    animation: hover1 1s linear 0s 1 forwards ;
+}
+@keyframes hover1 {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+        opacity: 1;
+    }
+}
+.home1:hover {
+    transform: scale(1.02);
+    background: rgba(0, 0, 0, 0.89);
+    
+}
+.homeH1 {
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 30px;
+}
+.homeP {
+    color: white;
+    position: absolute;
+    top: 95px;
+    font-size: 22px;
+    left: 30px;
+}
+
+.videoSection {
+    width: 98%;
+    height: 550;
+    border: 2px red solid;
+    position: absolute;
+    top: 220px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iframe {
+    border: 2px red solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
