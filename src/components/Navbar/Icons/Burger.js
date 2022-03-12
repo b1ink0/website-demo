@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const svg5 = document.querySelector('.Svg5');
   const svg6 = document.querySelector('.Svg6');
   const svg7 = document.querySelector('.Svg7');
-  const b = document.querySelector('.SvgM');
+  const b = document.querySelector('.burger');
   
   b.addEventListener('click', function () {
 

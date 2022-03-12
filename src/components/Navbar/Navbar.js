@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import { Menu } from './Menu';
 import Burger from './Icons/Burger';
+import MainLogo from './Icons/MainLogo';
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -11,12 +12,13 @@ class Navbar extends Component {
     }
     render(){
         return(
-            <div>
+            <div className='navBorder'>
+                <div id='navGR'></div>
                 <nav>
                     <div className='menu-logo'>
                         <div className='c'></div>
                         <div className='d'></div>
-                        <h1>Stup!d Gaming </h1>
+                        <h1>B1ink0<MainLogo/> </h1>
                     </div>
                     <div className='burger' onClick={this.handleClick}>
                         <Burger/>

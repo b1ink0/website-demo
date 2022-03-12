@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  width: 100%;
+  height: 200%;
+  background-size:35% auto;
+  background: rgb(255,0,0);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+:root{
+  --overlay-color-1: #ff0000;
+  --overlay-color-2: #000000;
+  --anim-duration: 2s;
+}
+
+#gradient {
+  opacity: 0.8;
+  background: none;
+}
+
+#gradient:after,
+#gradient:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#gradient:before {
+  background: linear-gradient(135deg, var(--overlay-color-2) 0%, var(--overlay-color-1) 100%);
+  animation: OpacityAnim var(--anim-duration) ease-in-out 0s infinite alternate;
+}
+
+#gradient:after {
+  background: linear-gradient(135deg, var(--overlay-color-1) 0%, var(--overlay-color-2) 100%);
+  animation: OpacityAnim var(--anim-duration) ease-in-out calc(-1 * var(--anim-duration)) infinite alternate;
+}
+
+@keyframes OpacityAnim {
+  0%{opacity: 1.0}
+  100%{opacity: 0.0}
+}
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
